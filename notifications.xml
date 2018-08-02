@@ -1,0 +1,5 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="SassLint plugin" shouldLog="false" />
+  </component>
+</application>
