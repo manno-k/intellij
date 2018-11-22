@@ -82,4 +82,12 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="thisimg" value="&lt;?= $this-&gt;Html-&gt;image('$value1$',['alt' =&gt; '$value2$','class'=&gt;'$value3$']); ?&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="value1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
