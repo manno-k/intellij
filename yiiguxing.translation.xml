@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="概要" />
       <item value="equipment" />
       <item value="設備" />
       <item value="vertically and horizontally" />
@@ -21,7 +22,7 @@
     <option name="languageScores">
       <map>
         <entry key="ENGLISH" value="15" />
-        <entry key="JAPANESE" value="15" />
+        <entry key="JAPANESE" value="16" />
       </map>
     </option>
   </component>
