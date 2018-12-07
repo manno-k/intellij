@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="条件" />
       <item value="vertical" />
       <item value="絞り込み" />
       <item value="こだわり" />
@@ -13,7 +14,6 @@
       <item value="縦横" />
       <item value="横" />
       <item value="縦" />
-      <item value="条件" />
       <item value="結果" />
       <item value="間取り" />
       <item value="外観" />
@@ -24,7 +24,7 @@
     <option name="languageScores">
       <map>
         <entry key="ENGLISH" value="20" />
-        <entry key="JAPANESE" value="20" />
+        <entry key="JAPANESE" value="21" />
       </map>
     </option>
   </component>
