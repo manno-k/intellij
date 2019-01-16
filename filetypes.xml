@@ -4,8 +4,9 @@
       <mapping pattern=".gitkeep" type="Git exclude file" />
       <mapping pattern=".gitignore_global" type="Git file" />
       <mapping ext="ctp" type="PHP" />
-      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="course-step-slider/car" type="PLAIN_TEXT" />
       <mapping pattern="_redirects" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="mainContent" type="Vue.js" />
     </extensionMap>
   </component>
