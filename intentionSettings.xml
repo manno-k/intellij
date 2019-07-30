@@ -1,6 +1,0 @@
-<application>
-  <component name="IntentionManagerSettings">
-    <ignoreAction name="Language Injection/言語または参照を注入" />
-    <ignoreAction name="Language Injection/言語/参照の注入解除" />
-  </component>
-</application>
