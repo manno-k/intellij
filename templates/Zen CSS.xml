@@ -43,12 +43,12 @@
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="fb" value="@include flex-basis(100%);" toReformat="false" toShortenFQNames="true">
+  <template name="fb" value="@include flex-basis(100%);" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="col6" value="@extend .u-col-12;&#10;@extend .u-col-lg-6;" toReformat="false" toShortenFQNames="true">
+  <template name="col6" value="@extend .u-col-12;&#10;@extend .u-col-lg-6;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="true" />
     </context>
