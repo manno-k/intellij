@@ -53,7 +53,7 @@
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="mp0" value="@extend .m-0;&#10;@extend .p-0;" toReformat="false" toShortenFQNames="true">
+  <template name="mp0" value="@extend .m-0;&#10;@extend .p-0;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="true" />
     </context>
