@@ -58,22 +58,22 @@
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="psa" value="@extend .position-absolute;&#10;" toReformat="false" toShortenFQNames="true">
+  <template name="psa" value="@extend .position-absolute;&#10;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="psr" value="@extend .position-relative;" toReformat="false" toShortenFQNames="true">
+  <template name="psr" value="@extend .position-relative;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="jcb" value="@extend .justify-content-between;&#10;" toReformat="false" toShortenFQNames="true">
+  <template name="jcb" value="@extend .justify-content-between;&#10;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="asc" value="@extend .align-self-center;" toReformat="false" toShortenFQNames="true">
+  <template name="asc" value="@extend .align-self-center;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="true" />
     </context>
