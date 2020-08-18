@@ -78,4 +78,10 @@
       <option name="CSS" value="true" />
     </context>
   </template>
+  <template name="bgs" value="background-size:$VAR0$;" description="background-size" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
 </templateSet>
