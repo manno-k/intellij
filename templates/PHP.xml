@@ -22,7 +22,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="phpimg" value="&lt;img src=&quot;&lt;?php echo esc_url( get_stylesheet_directory_uri() ) ;?&gt;/$path$&quot; alt=&quot;$end$&quot; /&gt;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="phpimg" value="&lt;img src=&quot;&lt;?php echo esc_url( get_stylesheet_directory_uri() ) ;?&gt;/assets/img/$path$&quot; alt=&quot;$end$&quot; /&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
