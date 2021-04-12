@@ -1,0 +1,93 @@
+<templateSet group="PHP">
+  <template name="php" value="&lt;?php $END$ ?&gt;" description="&lt;?php ?&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="phpif" value="&lt;?php if( $END$ ):?&gt;&#10;&lt;?php else:?&gt;&#10;&lt;?php endif ;?&gt;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="phpgett" value="&lt;?php get_template_part('',''); ?&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="phpsite" value="&lt;?php echo site_url('/'); ?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="phpimg" value="&lt;img src=&quot;&lt;?php echo esc_url( get_stylesheet_directory_uri() ) ;?&gt;/assets/img/$path$&quot; alt=&quot;$end$&quot; /&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="prif" value="private function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="private function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ism" value="is_mobile()" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="escu" value="esc_url($path$);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="esch" value="esc_html($path$);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="esca" value="esc_attr($path$);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="phpesca" value="&lt;?php echo esc_attr($attr$); ?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="attr" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="phpesch" value="&lt;?php echo esc_html($attr$); ?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="attr" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="phpescu" value="&lt;?php echo esc_url($attr$); ?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="attr" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="thisimg" value="&lt;?= $this-&gt;Html-&gt;image('$value1$',['alt' =&gt; '$value2$','class'=&gt;'$value3$']); ?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="value1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

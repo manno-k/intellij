@@ -1,0 +1,87 @@
+<templateSet group="Zen CSS">
+  <template name="mma" value="@media (max-width: $VAR$px){&#10;&#10;}" description="media query max-width" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="mmi" value="@media (mix-width: $VAR$px){&#10;&#10;}" description="media query max-width" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="wh" value="width:$VAR0$px;&#10;height:$VAR0$px;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="ma0" value="margin:0 auto;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="p0a" value="padding:0 auto;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="@mu" value="@include media-breakpoint-up($VAR0$){&#10;    $VAR1$    &#10;}" description="@include media-breakpoint-up" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bgc" value="background-color:$VAR0$;" description="background-color:#fff;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;fff&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="flex" value="@extend .d-flex;&#10;@extend .flex-wrap;" description="flex" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="fb" value="@include flex-basis(100%);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="col6" value="@extend .u-col-12;&#10;@extend .u-col-lg-6;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="mp0" value="@extend .m-0;&#10;@extend .p-0;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="psa" value="@extend .position-absolute;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="psr" value="@extend .position-relative;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="jcb" value="@extend .justify-content-between;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="asc" value="@extend .align-self-center;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bgs" value="background-size:$VAR0$;" description="background-size" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>
