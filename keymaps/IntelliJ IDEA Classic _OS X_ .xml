@@ -6,6 +6,10 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="shift meta at" />
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="ActivatenpmToolWindow">
+    <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="Arrangement.Rule.Remove">
     <keyboard-shortcut first-keystroke="delete" />
@@ -25,6 +29,7 @@
   <action id="EditorScrollUp" />
   <action id="EditorSelectWord" />
   <action id="FileChooser.NewFolder" />
+  <action id="FileChooser.TogglePathShowing" />
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
     <keyboard-shortcut first-keystroke="shift meta f" />
@@ -37,6 +42,7 @@
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
+  <action id="ParameterInfo" />
   <action id="RearrangeCode">
     <keyboard-shortcut first-keystroke="meta alt l" />
     <keyboard-shortcut first-keystroke="shift meta l" />
@@ -61,8 +67,10 @@
   <action id="Vcs.ReformatCommitMessage">
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
+  <action id="Vcs.UpdateProject" />
   <action id="XDebugger.RemoveWatch">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.CyclicSplitLayoutChangeAction" />
 </keymap>
