@@ -7,6 +7,7 @@
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="aiowps_fcd_data_6qm7wx3hkh" type="PLAIN_TEXT" />
       <mapping pattern="access_log" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="Stub_Linux_x86" type="PLAIN_TEXT" />
       <mapping ext="list" type="PLAIN_TEXT" />
       <mapping ext="tsv" type="TSV" />
