@@ -1,0 +1,13 @@
+<application>
+  <component name="PluginFeatureService">
+    <option name="features">
+      <map>
+        <entry key="com.intellij.configurationType">
+          <value>
+            <FeaturePluginsList />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
