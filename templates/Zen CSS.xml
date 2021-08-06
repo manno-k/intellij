@@ -104,4 +104,16 @@
       <option name="CSS" value="true" />
     </context>
   </template>
+  <template name="@for" value="@for $i from 1 through $v$ {&#10;&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="v" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="@each" value="$arr: $v1$;&#10;&#10;@each $arr in $v {&#10;  &#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="v1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
 </templateSet>
