@@ -116,4 +116,9 @@
       <option name="CSS" value="true" />
     </context>
   </template>
+  <template name="ul0" value="&#9;ul {&#10;&#9;&#9;&#9;@extend .ml-0;&#10;&#9;&#9;&#9;@extend .pl-0;&#10;&#9;&#9;&#9;li{&#10;&#9;&#9;&#9;&#9;@extend .list-unstyled;&#10;&#9;&#9;&#9;}&#10;&#9;&#9;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
 </templateSet>
