@@ -2,16 +2,18 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="_redirects" type="AUTO_DETECTED" />
+      <removed_mapping ext="csv" type="CSV" />
+      <mapping ext="csv" type="CSV/TSV" />
+      <mapping ext="tsv" type="CSV/TSV" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="aiowps_fcd_data_6qm7wx3hkh" type="PLAIN_TEXT" />
       <mapping pattern="access_log" type="PLAIN_TEXT" />
       <mapping pattern="Stub_Linux_x86" type="PLAIN_TEXT" />
       <mapping ext="list" type="PLAIN_TEXT" />
+      <removed_mapping ext="tsv" type="TSV" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
-      <removed_mapping ext="csv" type="CSV/TSV" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="scss" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="tsv" type="CSV/TSV" />
       <removed_mapping pattern=".env" approved="true" type="PLAIN_TEXT" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
