@@ -43,7 +43,8 @@
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="fb" value="@include flex-basis(100%);" description="" toReformat="false" toShortenFQNames="true">
+  <template name="fb" value="@include flex-basis($v$0%);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="v" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="true" />
     </context>
@@ -117,6 +118,14 @@
     </context>
   </template>
   <template name="ul0" value="&#9;ul {&#10;&#9;&#9;&#9;@extend .ml-0;&#10;&#9;&#9;&#9;@extend .pl-0;&#10;&#9;&#9;&#9;li{&#10;&#9;&#9;&#9;&#9;@extend .list-unstyled;&#10;&#9;&#9;&#9;}&#10;&#9;&#9;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="fbu" value="@include flex-basis($v1$0%);&#10;@include media-breakpoint-up($v2$) {&#10;@include flex-basis($v3$0%);&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="v1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="v2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="v3" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="true" />
     </context>
