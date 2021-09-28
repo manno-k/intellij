@@ -130,14 +130,14 @@
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="@s" value="@screen $v$ {&#10;$v2$&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="@s" value="@screen $v$ {&#10;$v2$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="v" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="v2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="@ap" value="@apply $v$" toReformat="false" toShortenFQNames="true">
+  <template name="@ap" value="@apply $v$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="v" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="true" />
