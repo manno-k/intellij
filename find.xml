@@ -7,8 +7,7 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.css,*.ejs,*.scss,*.php,*.ctp,*.vue,*.js,*.html" />
-    <mask>*.java</mask>
+    <option name="FILE_MASK" value="*.css,*.ejs,*.scss,*.php,*.ctp,*.vue,*.js,*.html,*.json" />
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>*.scss,*.ctp</mask>
@@ -38,5 +37,6 @@
     <mask>*.inc</mask>
     <mask>*.php</mask>
     <mask>*.css,*.ejs,*.scss,*.php,*.ctp,*.vue,*.js,*.html</mask>
+    <mask>*.css,*.ejs,*.scss,*.php,*.ctp,*.vue,*.js,*.html,*.json</mask>
   </component>
 </application>
