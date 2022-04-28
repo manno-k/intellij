@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="_redirects" type="AUTO_DETECTED" />
+      <mapping ext="ejs" type="HTML" />
       <mapping ext="html" type="PHP" />
       <mapping pattern="aiowps_fcd_data_6qm7wx3hkh" type="PLAIN_TEXT" />
       <mapping pattern="Stub_Linux_x86" type="PLAIN_TEXT" />
