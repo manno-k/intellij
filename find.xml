@@ -4,10 +4,8 @@
     <option name="customScope" value="すべての場所" />
     <option name="defaultScopeName" value="すべての場所" />
     <option name="localCaseSensitive" value="true" />
-    <option name="localWholeWordsOnly" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="すべての場所" />
     <option name="FILE_MASK" value="*.css,*.ejs,*.scss,*.php,*.ctp,*.vue,*.js,*.html,*.json" />
     <mask>*.as</mask>
