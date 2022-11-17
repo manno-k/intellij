@@ -103,7 +103,8 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="phpimgs" value="&lt;img class=&quot;w-100&quot; alt=&quot;$END$&quot; src=&quot;&lt;?php echo esc_url(get_stylesheet_directory_uri()); ?&gt;/assets/img/$END1$&quot; srcset=&quot;&lt;?php echo esc_url(get_stylesheet_directory_uri()); ?&gt;/assets/img/$END2$ 2x&quot;/&gt;&#10;" toReformat="false" toShortenFQNames="true">
+  <template name="phpimgs" value="&lt;img class=&quot;w-100&quot; alt=&quot;$END0$&quot; src=&quot;&lt;?php echo esc_url(get_stylesheet_directory_uri()); ?&gt;/assets/img/$END1$&quot; srcset=&quot;&lt;?php echo esc_url(get_stylesheet_directory_uri()); ?&gt;/assets/img/$END2$ 2x&quot;/&gt;&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="END0" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="END1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="END2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
